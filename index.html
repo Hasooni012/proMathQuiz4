@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Math Quiz for 2 Players</title>
+</head>
+<body>
+    <header>
+        <h1>Math Quiz for 2 Players</h1>
+    </header>
+    <main>
+        <section id="player-names">
+            <input type="text" id="player1" placeholder="Player 1 Name">
+            <input type="text" id="player2" placeholder="Player 2 Name">
+            <button id="start-button">Start Quiz</button>
+        </section>
+        <section id="quiz-section" class="hidden">
+            <div id="question-container">
+                <p id="question">Question goes here</p>
+            </div>
+            <div id="answer-container">
+                <input type="number" id="answer" placeholder="Your Answer">
+                <button id="submit-button">Submit</button>
+            </div>
+        </section>
+        <section id="result-section" class="hidden">
+            <p id="result-message">Result goes here</p>
+            <button id="play-again-button">Play Again</button>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
